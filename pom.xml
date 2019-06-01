@@ -7,6 +7,14 @@
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <source.version>1.8</source.version>
@@ -16,6 +24,10 @@
         <maven.shade.version>2.4.2</maven.shade.version>
 
         <!-- dependencies -->
+
+
+
+
     </properties>
 
     <build>
